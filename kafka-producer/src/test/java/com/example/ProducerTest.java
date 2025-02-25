@@ -17,7 +17,8 @@ class ProducerTest {
 
     @Test
     void test1() {
-        kafkaTemplate.send("test-topic-2","vir-3","Virendra Message 1 failed");
+//        kafkaTemplate.send("test-topic-2","vir-3","Virendra Message 1 failed");
+        kafkaTemplate.send("test-topic-1","vir-3","Virendra Message test-topic-1 failed");
 
 
     }
